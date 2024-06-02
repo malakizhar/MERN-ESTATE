@@ -12,11 +12,11 @@ const userSchema=new mongoose.Schema({
         required:true,
         unique:true,
     },
-    passoword:{
+    passoword: {
 
         type:String,
         required:true,
-        unique:true,
+       
     }
    
 
